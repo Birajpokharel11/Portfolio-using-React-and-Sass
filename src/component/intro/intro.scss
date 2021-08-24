@@ -1,3 +1,12 @@
 .intro {
-  background-color: lightpink;
+  background-color: white;
+  display: flex;
+  .left {
+    flex: 0.5;
+    background-color: bisque;
+  }
+  .right {
+    flex: 0.5;
+    background-color: aqua;
+  }
 }
